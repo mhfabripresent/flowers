@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+
+.night{
+    text-align: center;
+    margin: auto;
+}
+
+.content-index{
+    color: white;
+    display: block;
+    margin: auto
+    /* background-color: aliceblue; */
+}
+
+button{
+    background-image: radial-gradient(
+      ellipse at top,
+      transparent 0%,
+      var(--dark-color)
+    ),
+    radial-gradient(
+      ellipse at bottom,
+      var(--dark-color),
+      rgba(145, 233, 255, 0.2)
+    ),
+    repeating-linear-gradient(
+      220deg,
+      black 0px,
+      black 19px,
+      transparent 19px,
+      transparent 22px
+    ),
+    repeating-linear-gradient(
+      189deg,
+      black 0px,
+      black 19px,
+      transparent 19px,
+      transparent 22px
+    ),
+    repeating-linear-gradient(
+      148deg,
+      black 0px,
+      black 19px,
+      transparent 19px,
+      transparent 22px
+    ),
+    linear-gradient(90deg, #00fffa, #f0f0f0);
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    border: white solid 2px;
+}
